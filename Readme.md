@@ -1,5 +1,5 @@
-Copyright ©2021. The Regents of KuwaitHackers LLC. (Regents). All Rights Reserved. Permission to use, copy, modify, and distribute this software and its documentation for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement, is hereby granted, provided that the above copyright notice, this paragraph and the following two paragraphs appear in all copies, modifications, and distributions. Contact KuwaitHackers LLC.,
-Alawadhi Tower2 M1, Ahmad Al Jaber Street, Sharq, Kuwait City, State of Kuwait, +965 99 88 71 80, info@hackers.com.kw, http://kuwaithackers.com for commercial licensing opportunities.
+Copyright &copy; 2021. The Regents of KuwaitHackers LLC. (Regents). All Rights Reserved. Permission to use, copy, modify, and distribute this software and its documentation for educational, research, and not-for-profit purposes, without fee and without a signed licensing agreement, is hereby granted, provided that the above copyright notice, this paragraph and the following two paragraphs appear in all copies, modifications, and distributions. Contact `KuwaitHackers LLC.,
+Alawadhi Tower2 M1, Ahmad Al Jaber Street, Sharq, Kuwait City, State of Kuwait, +965 99 88 71 80, info@hackers.com.kw, http://kuwaithackers.com` for commercial licensing opportunities.
 
 IN NO EVENT SHALL REGENTS BE LIABLE TO ANY PARTY FOR DIRECT, INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES, INCLUDING LOST PROFITS, ARISING OUT OF THE USE OF THIS SOFTWARE AND ITS DOCUMENTATION, EVEN IF REGENTS HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
@@ -105,10 +105,10 @@ See configuration under `RobConfig.py`
 ## Tool Concept
 
 Rob Tool consists of four components
-* Phishing 3rd Party Apps: Creating third-party apps that users would include as add-ons to their profile. These apps are designed to be over-permissive for malicious intents.
-* Malicious App Store: Private third-party app store, grouped by genres to classify and catalogue phishing & trojanized apps that a bad actor can choose from to gain RAT control over victim accounts.
-* Oauth Management Console: oauth management console to handle tokens for compromised social network accounts.
-* RAT Control: Exercise operations on behalf of the user. This includes reading private messages, viewing inbox, sending direct messages, posting on social media, and tracing geolocation. 
++ Phishing 3rd Party Apps: Creating third-party apps that users would include as add-ons to their profile. These apps are designed to be over-permissive for malicious intents.
++ Malicious App Store: Private third-party app store, grouped by genres to classify and catalogue phishing & trojanized apps that a bad actor can choose from to gain RAT control over victim accounts.
++ Oauth Management Console: oauth management console to handle tokens for compromised social network accounts.
++ RAT Control: Exercise operations on behalf of the user. This includes reading private messages, viewing inbox, sending direct messages, posting on social media, and tracing geolocation. 
 
 
 ## Lessons Learned
@@ -119,42 +119,4 @@ Rob Tool consists of four components
 
 ## Misc
 App-specific credentials including `oauth_consumer_key` and `oauth_consumer_secret` may be valid for demonstration purposes and are intentionally available in our github (We get warning messages from Github Guardian and other scanners about them so relax we know how to review our source code!!). Oauth tokens may be valid for our test accounts. If we see mischief they will be revoked.
-
-
-```
-                                                                                                                 
-                                                          *&@&&&&&&&&&&&&&&&&&&@&*                                                          
-                                                      ,@&&&&&&&&&&&&&&&&&&&&&&&&&&&&&,                                                      
-                                                    /&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&/                                                    
-                                                  .&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&@                                                   
-                                                 .&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&                                                  
-                                                 &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&%                                                 
-                                                ,&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&                                                 
-                                                .******************************************.                                                
-                                        *@%*    /%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%,    ,%@,                                        
-                                        .&&&&&&&&#/,                                   .,/#&@&&&&&&.                                        
-                        @@@@.      *@@@@@*  *#&@&&&&&&&&&&&&&@@@@@@&&&&&@@@@@&&&&&&&&&&&&&&&@&#*     (@@@*      /%                          
-                        @@@@.    %@@@@%             ..*/##%&&&@@@@&&&&&&&&@@@@&&&%%#/*..             *(((.    @@@&                          
-                        @@@@. .@@@@@*       ,@@@#     (@@@/ .@@@#     &@@@     %@@&.   (@@@@@@@/     (@@@*  &@@@@@@@/                       
-                        @@@@/@@@@@&         ,@@@#     (@@@(  *@@@/   %@@@@%   (@@@,  &@@@#,,/@@@@/   (@@@*  %%@@@@%%/                       
-                        @@@@@@@%@@@@/       ,@@@#     (@@@(   (@@@. *@@@@@@, ,@@@(          .(@@@#   (@@@*    @@@&                          
-                        @@@@&.   @@@@@.     ,@@@%     (@@@(    %@@& @@@,,@@@ @@@#    *@@@@@@&#@@@#   (@@@*    @@@&                          
-                        @@@@.     /@@@@%    ,@@@&     @@@@(     @@@@@@#  %@@@@@&    %@@@*    *@@@#   (@@@*    @@@&                          
-                        @@@@.       @@@@@*   %@@@@@@@@&@@@(     .@@@@@    @@@@@.    ,@@@@@%&@@@@@&   (@@@*    @@@@@@%                       
-                %&&     ....  ,&&(   .....     .*//,   ...        ...  %&& ...         ,//*.   ...    ...      .*//,.                       
-                &@@           ,@@#                                     @@@                                                                  
-                &@@           ,@@#     .%@@@@@@@@%       ,&@@@@@@@,    @@@     (@@&.    ,&@@@@@@@/      @@*(@@@@(  (@@@@@@@@*               
-                &@@@@@@@@@@@@@@@@#    @@&       *@@,   #@@*      (@@,  @@@  #@@%      %@@,       @@&    @@@*     ,@@*      #&%              
-                &@@           ,@@#      *#@@@@@@@@@,  .@@/             @@@@@@@#      *@@@@@@@@@@@@@@(   @@#        %@@@@@@&(.               
-                &@@           ,@@#   (@@#       /@@*   @@&        &%*  @@@   *@@&    .@@%        ...    @@#       .,       (@@#             
-                &@@           ,@@#   .@@@(,..*%@&@@/    #@@&*.,/&@@/   @@@     ,@@@.   #@@&/,.,#@@@,    @@#       %@@%*..,#@@&              
-                                                                                                                                            
-                                                                                                                                            
-                            .@@       .@.            (@@@.#/                                         ,&@@&*    @&@%    ,&@@%,         @(    
-                             (@,                   (@%    %(    *@@(           @%@#                 %@(          #&   %@/            @@@%   
-      ,(,@@.     ,/*@@         #&      /@,   %,       (@  (%   .& ,@@%    /%         /.   .@* *@@@    .&&     @( .@     .&%  /(     ** //,@.
-  /* (@(%@%  /, %&(%@%  /, #@@@@(       ,%   ,@@@@@@@@@@  .@@@@@@@@@@&     @@@@&@@@@&&@@@@@@. #@@@@@@@@@(     ./(.#@@@@@@@(   @@@@@@@@@&@@% 
-  ,. ,@      ,. /@      ,.            .&@    #@                                                 %&                           *@.            
-      &.         @                        ,(/                                          (@&@   ,,                          ./(.              
-```
 
